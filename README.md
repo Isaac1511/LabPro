@@ -1,1 +1,1 @@
-# Live_Projects submittals posted here.
+# Live_Projects posted here.
