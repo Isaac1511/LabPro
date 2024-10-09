@@ -1,0 +1,41 @@
+Generate random scenarios for testing and fammilarization. 2:23 PM 4/11/2024
+
+* CREATE BASH SCRIPT FOR THE FOLLOWING SCENARIO, PROVIDE DESCRIPTIONS WITH EACH COMMAND. 
+* MAKE SCRIPT INTO ARM TEMPLATE.
+
+
+
+needs:
+ - Ficticious Company Name: AnkSolutions Inc.
+ 
+
+Scenario: 
+AnkSolutions Inc. is a growing technology company that specializes in developing web applications for their clients. 
+They have recently decided to migrate their infrastructure to Microsoft Azure to take advantage of its scalability, reliability, and security features. 
+Here's how they plan to set up their Azure environment.
+
+* Virtual Machines (VMs): TechSolutions Inc. needs to deploy several virtual machines to host their web applications. 
+They plan to create VMs for development, testing, and production environments. Each VM will run a specific component of their web applications, such as frontend, backend, and database servers.
+Virtual Networks (VNets):
+
+To ensure network isolation and segmentation, TechSolutions Inc. will create multiple virtual networks (VNets) within Azure. They will set up separate VNets for each environment (development, testing, production) to control traffic flow and enhance security.
+
+* Web Apps: TechSolutions Inc. wants to host their web applications on Azure App Service, a fully managed platform for building, deploying, and scaling web apps. They plan to create separate web app instances for each environment and deploy their application code using continuous integration and deployment (CI/CD) pipelines.
+Firewall and Network Security Groups (NSGs):
+
+To control inbound and outbound traffic to their virtual networks and VMs, TechSolutions Inc. will configure network security groups (NSGs) with rules to allow or deny specific types of traffic. They will also deploy Azure Firewall to provide an additional layer of network security and protect their resources from unauthorized access.
+
+
+* Subnets: Within each virtual network, TechSolutions Inc. will create multiple subnets to logically segregate different types of resources. For example, they will create separate subnets for frontend servers, backend servers, and database servers to enhance network security and optimize resource management.
+
+
+* Key Vault: TechSolutions Inc. recognizes the importance of securely managing and storing their application secrets, certificates, and encryption keys. They will set up Azure Key Vault to centralize and safeguard their sensitive information, ensuring that only authorized applications and users can access it.
+Blob Storage:
+
+For storing large volumes of unstructured data, such as media files and user uploads, TechSolutions Inc. will utilize Azure Blob Storage. They will create blob containers within their storage accounts and configure access controls to ensure data privacy and integrity.
+Virtual Private Networks (VPNs):
+
+
+
+To establish secure connections between their on-premises network and Azure resources, TechSolutions Inc. will deploy Azure Virtual Network Gateways and configure site-to-site VPN tunnels. This will allow their employees to access Azure resources securely from their corporate network, enabling seamless collaboration and resource access.
+By setting up these components in their Azure environment, TechSolutions Inc. aims to create a secure, scalable, and resilient infrastructure that can support their web application development efforts and meet the needs of their growing business.
