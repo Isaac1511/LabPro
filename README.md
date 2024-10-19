@@ -1,1 +1,1 @@
-# Test Infra for pipeline automation.
+# Test for pipeline automation.
